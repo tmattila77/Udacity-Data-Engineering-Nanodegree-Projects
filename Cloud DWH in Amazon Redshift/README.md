@@ -1,5 +1,7 @@
 # Building a data warehouse for Sparkify in Amazon Redshift
 
+## This is an ongoing project that is getting to its end. I am still ironing it out to design the final version.
+
 ## The goal of the project
 The goal of this project is to create a data warehouse for the startup called Sparkify which has rolled out a new music streaming app to the market. The management and the analyst team of the company is curious about to which songs their users listen the most. 
 The company provided me, their data engineer, 2 different datafiles:
@@ -45,4 +47,4 @@ Once the database is ready to use, we run *create_tables.py*. This program drops
 ## Testing the database
 After finishing the design of the data warehouse, I tested the database by SQL queries. I wanted to be sure that all the tables contain the right sort of data and that joins of different dimension tables and the fact table can be carried out when executing a more complex query. I also wanted to check the size of the data tables and whether there are any unnecessary duplicates in the tables. I ran the test quesries in the Amazon Redshift console.
 
-Sample queries, screenshot of the console
+Sample queries and screenshots of the console coming soon.
