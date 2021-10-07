@@ -1,13 +1,13 @@
 # Building a data warehouse for Sparkify in Amazon Redshift
 
-## This is an ongoing project that is getting to its end. I am still ironing it out to design the final version.
+## Note: This is an ongoing project that is getting to its end. I am still ironing it out to design the final version.
 
 ## The goal of the project
 The goal of this project is to create a data warehouse for the startup called Sparkify which has rolled out a new music streaming app to the market. The management and the analyst team of the company is curious about to which songs their users listen the most. 
 The company provided me, their data engineer, 2 different datafiles:
 - the log data file that contains the users' activity collected by the app;
 - the song data file that contains metadata of the songs streamed by the app.
-Both data files are JSON files and are saved in the Amazon S3 buckets as follows:
+Both data files are JSON files and are saved in the Amazon S3 buckets as follows: '\n'
 Song data: *s3://udacity-dend/song_data*
 Log data: *s3://udacity-dend/log_data*
 
